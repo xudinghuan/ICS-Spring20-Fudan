@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 16 09:45:05 2020
+# Process ID: 18684
+# Current directory: C:/Users/masao/Desktop/Assignment_1
+# Command line: vivado.exe -mode tcl -source benchtest/run_simulation.tcl ./Assignment_1.xpr
+# Log file: C:/Users/masao/Desktop/Assignment_1/vivado.log
+# Journal file: C:/Users/masao/Desktop/Assignment_1\vivado.jou
+#-----------------------------------------------------------
+open_project ./Assignment_1.xpr
+Scanning sources...
+Finished scanning sources
+source benchtest/run_simulation.tcl
+# update_compile_order -fileset sources_1
+# set simulations [get_fileset $env(SIMULATION)]
+# if { [llength simulations] != 0} {
+# 	foreach sim $simulations {
+#                 update_compile_order -fileset $sim
+#                 launch_simulation -simset $sim
+#                 # make simulation complete
+#                 run all
+# 	}
+# }
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/masao/Desktop/Assignment_1/Assignment_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/masao/Desktop/Assignment_1/Assignment_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/masao/Desktop/Assignment_1/Assignment_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/masao/Desktop/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 21053131875a4b90af7c137fbcce6bde --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/masao/Desktop/Assignment_1/Assignment_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source cpu_tb.tcl
+## current_wave_config
+WARNING: Simulation object /cpu_tb/summary was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of System Verilog Dynamic Type object.
+========== Test: ad hoc ==========
+WARNING: file C:/Users/masao/Desktop/Assignment_1/benchtest/ad hoc/ad hoc.data could not be opened
+========== In init ==========
+         19 instructions in total
+========== In runtime checker ==========
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+FAILURE: Testbench Failed to finish before ddl!
+$finish called at time : 10 ms : File "C:/Users/masao/Desktop/Assignment_1/benchtest/cpu_tb.sv" Line 93
+# exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 16 09:45:19 2020...

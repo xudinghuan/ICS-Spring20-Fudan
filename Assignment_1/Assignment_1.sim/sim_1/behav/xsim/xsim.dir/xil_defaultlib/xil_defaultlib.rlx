@@ -1,0 +1,22 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/adder.sv,1583738033,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/alu.sv,,adder,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/alu.sv,1584121258,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/aludec.sv,,alu,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/aludec.sv,1584070473,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/controller.sv,,aludec,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/controller.sv,1584026380,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/datapath.sv,,controller,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/datapath.sv,1584119936,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/dmem.sv,,datapath,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/dmem.sv,1583997382,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/flopr.sv,,dmem,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/flopr.sv,1583738633,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/imem.sv,,flopr,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/imem.sv,1583994313,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/isjr.sv,,imem,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/isjr.sv,1584118331,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/maindec.sv,,isjr,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/maindec.sv,1584082409,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/mips.v,,maindec,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/mips.v,1583726210,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/mux2.sv,,mips,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/mux2.sv,1583739364,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/regfile.sv,,mux2,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/regfile.sv,1584072196,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/shifter.sv,,regfile,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/shifter.sv,1584072898,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/signext.sv,,shifter,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/signext.sv,1583738346,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/sl2.sv,,signext,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/Assignment_1.srcs/sources_1/new/sl2.sv,1583738179,systemVerilog,,C:/Users/masao/Desktop/Assignment_1/benchtest/cpu_tb.sv,,sl2,,,,,,,,
+C:/Users/masao/Desktop/Assignment_1/benchtest/cpu_tb.sv,1584595968,systemVerilog,,,,cpu_tb,,,,,,,,
